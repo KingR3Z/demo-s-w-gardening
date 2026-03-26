@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "7",
 
   // Services
   services: [
@@ -79,9 +79,13 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Toby Tine", rating: 5, text: "Shaun and Peter dismantled and disposed of my old fencing which was not with the old concrete posts. The erected 10 new posts and 9 new panel. It was beautifully done, straight, level and they cleared up after the job as if they were never there. Gre", date: "9 months ago" },
+    { name: "Gary Emmett", rating: 5, text: "Came to do a basic tidy of Front and back garden. And WOW what a great job they did , if this the level of just a basic tidy up. I would hate to think how good a full on tidy up be. Will definitely use SW gardening again. Thanks Gary +4 ", date: "3 years ago" },
+    { name: "John Hinds", rating: 5, text: "Shaun and Peter are expert fence and decking specialists working to very high standards. Cannot fault their workmanship. Highly recommended. ", date: "3 months ago" },
+    { name: "Gill Loveland", rating: 5, text: "From my first contact with Becky to job finished by Pete and Shaun the service couldn’t be better. I was provided with a quote, what deposit was required and why this was needed. Becky provided a start date and the guys turned up on time. …  ", date: "3 years ago" },
+    { name: "Patricia Heritage", rating: 5, text: "Contacted this firm several weeks ago to cut my hedge after a week no quote contacted them told to send email so they could send quote completely ignored although I did contact them again never heard back, disgusting service. …  ", date: "Edited 9 months ago" },
+    { name: "Andrew Hill", rating: 5, text: "Great reliable service by Shaun and Peter. Plus a superb job on some new fencing and landscaping. Thanks guys! ", date: "5 months ago" },
+    { name: "Hazel", rating: 5, text: "Shaun and Pete have spent the entire week digging out mortar and repointing my patio in searing heat and have done such a great job, we're so impressed.  But more than that, I have to say they're the quietest, most considerate people we've …  ", date: "2 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
